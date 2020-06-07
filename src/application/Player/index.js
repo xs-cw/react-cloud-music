@@ -222,6 +222,7 @@ function Player(props) {
   };
   const handleError = () => {
     songReady.current = true;
+    // TODO 切换其他平台搜索
     handleNext();
     alert("播放出错");
   };
